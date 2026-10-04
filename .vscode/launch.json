@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Lancer le serveur web & simulation",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/server.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Lancer la simulation Acetone + Serveur Web",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/acetone_simulation.py",
+            "console": "integratedTerminal"
+        }
+    ]
+}
